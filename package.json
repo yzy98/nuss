@@ -10,19 +10,29 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepare": "husky"
+    "prepare": "husky",
+    "db:push": "drizzle-kit push",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:pull": "drizzle-kit pull",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "drizzle-orm": "^0.43.1",
     "nuxt": "^3.17.4",
     "vue": "^3.5.14",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.5.1",
+    "zod": "^3.25.23"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.13.2",
+    "drizzle-kit": "^0.31.1",
     "eslint": "^9.27.0",
     "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.0.0",
+    "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   },
   "lint-staged": {
