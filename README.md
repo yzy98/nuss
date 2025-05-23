@@ -5,9 +5,9 @@
 - [x] Eslint configuration
 - [x] Drizzle db setup
 - [x] Better-auth setup
+- [x] Middleware protect dashboard page
 
 ## TODO
 
 - [ ] Sign-in / up pages
-- [ ] Middleware protect dashboard page
 - [ ] Navbar displays user button
